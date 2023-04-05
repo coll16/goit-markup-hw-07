@@ -40,6 +40,7 @@ img {
   padding-left: 16px;
   padding-right: 16px;
   margin: 0 auto;
+  align-items: center;
 }
 
 .visually-hidden {
@@ -194,19 +195,20 @@ img {
   background-position: center;
   background-size: cover;
   margin: 0 auto;
-  max-width: 1440px;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .hero-tittle {
   max-width: 496px;
   font-weight: 700;
-  font-size: 56px;
+  font-size: 36px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .btn-hero {
@@ -214,7 +216,6 @@ img {
   display: block;
   margin: 0 auto;
   border: none;
-  margin-top: 48px;
   width: 169px;
   height: 56px;
   font-weight: 500;
@@ -311,6 +312,7 @@ img {
 
 .what {
   padding-bottom: 120px;
+  display: none;
 }
 
 .what-tittle {
@@ -327,6 +329,7 @@ img {
 .what-list {
   gap: 24px;
   justify-content: center;
+  display: flex;
 }
 
 .what-list-item {
@@ -364,6 +367,7 @@ img {
 .team-list {
   justify-content: center;
   gap: 24px;
+  display: flex;
 }
 
 .team-name {
