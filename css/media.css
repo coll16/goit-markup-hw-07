@@ -1,6 +1,81 @@
 @media screen and (min-width: 480px) {
-.strat-icon-list {
-    display: flex;
+  .strat-tittle {
+    width: 396px;
+  }
+
+  .strat-list {
+  }
+  .strat-p {
+    width: 396px;
+  }
 }
 
+@media screen and (min-width: 768px) {
+  .strat-tittle {
+    max-width: 736px;
+    text-align: start;
+  }
+
+  .strat-list-item {
+    max-width: 736px;
+    height: 120px;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .strat-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+    margin: 0 auto;
+  }
+
+  .strat-p {
+    max-width: 351px;
+    height: 72px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .strat-tittle {
+    max-width: 264px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .strat-list-item {
+    max-width: 264px;
+    height: 112px;
+  }
+
+  .strat-list {
+    width: 1128px;
+    flex-wrap: wrap;
+    height: 224px;
+  }
+
+  .strat-p {
+    max-width: 264px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+
+  .strat-icon-list {
+    display: flex;
+}
 }
