@@ -17,6 +17,32 @@
     width: 396px;
   }
 
+  .team-list {
+    justify-content: center;
+    gap: 72px;
+  }
+
+  .team-list-item {
+  }
+
+  .team-tittle {
+    margin-bottom: 72px;
+    padding-top: 96px;
+  }
+
+  .team-container {
+    width: 264px;
+  }
+
+  .team-soc-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    gap: 24px;
+  }
+
   .hero {
     width: 100%;
     height: 432px;
@@ -48,6 +74,38 @@
     height: 56px;
     left: 129px;
     top: 334px;
+  }
+
+.customers-container {
+  width: 396px;
+}
+
+  .customers-list {
+  column-gap: 24px;
+  row-gap: 72px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .customers-list-item {
+    
+  }
+
+  .customers-tittle {
+    padding-top: 96px;
+    margin-bottom: 72px;
+  }
+
+  .customers {
+padding-top: 0;
+padding-bottom: 0;
+  }
+
+  .customers {
+    padding-bottom: 96px;
   }
 }
 
@@ -131,6 +189,40 @@ height: 56px;
 left: 300px;
 top: 340px;
   }
+
+  .team-container {
+    width: 552px;
+  }
+
+  .team-list {
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+
+  .team-list-item {
+width: calc((100% - 24px) / 2);
+  }
+
+ .customers-container {
+  width: 768px;
+ }
+
+ .customers-list {
+  column-gap: 24px;
+  row-gap: 72px;
+ }
+
+ .customers-list-item {
+ }
+
+ .customers-tittle {
+  padding-top: 96px;
+  margin-bottom: 72px;
+}
+
+.customers {
+  padding-bottom: 96px;
+}
 }
 
 @media screen and (min-width: 1200px) {
@@ -161,7 +253,7 @@ top: 340px;
   .strat-list {
     width: 1128px;
     flex-wrap: wrap;
-    height: 224px;
+    height: 112px;
   }
 
   .strat-p {
@@ -178,6 +270,7 @@ top: 340px;
   }
 
   .strat-icon-list {
+    width: 1128px;
     display: flex;
   }
   .hero {
@@ -191,5 +284,39 @@ top: 340px;
 
   .what {
     display: flex;
+  }
+
+  .team-container {
+    width: 1128px;
+  }
+
+  .team-list {
+    flex-wrap: nowrap;
+  }
+
+  .team-list-item {
+    width: 264px;
+  }
+
+  .team-tittle {
+    padding-top: 120px;
+    padding-bottom: 72px;
+  }
+
+  .customers-container {
+    width: 1200px;
+  }
+
+  .customers-list {
+    flex-wrap: nowrap;
+  }
+
+  .customers-tittle {
+    padding-top: 120px;
+    margin-bottom: 72px;
+  }
+
+  .customers {
+    padding-bottom: 120px;
   }
 }
