@@ -455,12 +455,6 @@ height: 428px;
 }
 
 .customers-list {
- /* width: 100%;
-  gap: 24px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;*/
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -518,21 +512,27 @@ height: 428px;
   font-size: 18px;
   line-height: 1.16;
   color: #f4f4fd;
-  margin-bottom: 16px;
 }
 
 .footer-logo-p {
   display: flex;
- justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
 }
 
 .footer-cont {
   padding-top: 100px;
   padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 72px;
+  align-items: center
 
 }
 
 .footer-p {
+  display: flex;
   max-width: 264px;
   height: 72px;
   font-weight: 400;
@@ -570,10 +570,6 @@ height: 428px;
   display: flex;
 }
 
-.footer-social {
-  margin-left: 120px;
-}
-
 .footer-social-link:is(:hover, :focus) {
   background-color: #31d0aa;
 }
@@ -596,7 +592,6 @@ height: 428px;
 }
 
 .footer-sub {
-  margin-left: 80px;
 }
 
 .footer-input {
@@ -638,14 +633,15 @@ color: #FFFFFF;
 }
 
 .footer-form {
-  display: flex;
+ 
 }
 
 .subscribe-btn {
   color: #ffffff;
   border: none;
-  margin-left: 24px;
+ margin: 0 auto;
   display: flex;
+  margin-top: 16px;
 justify-content: center;
 align-items: center;
 width: 165px;
@@ -684,22 +680,28 @@ color: #FFFFFF;
 }
 
 .btn-list {
-  justify-content: center;
-  gap: 24px;
-  padding-top: 96px;
-  margin-bottom: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 16px;
+  column-gap: 24px;
+  justify-content: flex-start;
+  margin-bottom: 48px;
+  max-width: 263px;
+  max-height: 96px;
+  padding-top: 48px;
 }
 
 .portfolio-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  height: 48px;
+padding: 8px 16px;
+max-width: none;
+height: 40px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 12px 24px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
@@ -719,16 +721,23 @@ color: #FFFFFF;
   border: 1px solid #404bbf;
 }
 
+.portfolio-cont {
+  width: 396px;
+}
+
 .portfolio-list {
+  width: 396px;
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 120px;
-  column-gap: 24px;
-  row-gap: 48px;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .portfolio-list-item {
-  width: 360px;
+  width: 396px;
   height: 420px;
   border: 1px solid #e7e9fc;
   position: relative;
@@ -767,7 +776,6 @@ padding: 40px 32px 0 32px;
 }
 
 .portfolio-img {
-  width: 360px;
   height: 420px;
   display: block;
 }
