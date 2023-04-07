@@ -114,6 +114,9 @@ padding-bottom: 0;
     margin-right: auto;
   }
 
+  .mobile-soc-list {
+    column-gap: 56px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -253,7 +256,20 @@ width: calc((100% - 24px) / 2);
   margin-top: 0;
 }
 
+ .menu-open-btn {
+  display: none;
+ }
 
+ .header-list {
+  display: flex;
+}
+
+.header-address {
+  display: flex;
+}
+.nav-list {
+  display: block;
+}
 }
 
 @media screen and (min-width: 1200px) {
@@ -374,4 +390,7 @@ width: calc((100% - 24px) / 2);
     margin-left: 80px;
   }
 
+  .nav-list {
+    display: flex;
+  }
 }
