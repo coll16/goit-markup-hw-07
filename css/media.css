@@ -27,7 +27,6 @@
 
   .team-tittle {
     margin-bottom: 72px;
-    padding-top: 96px;
   }
 
   .team-container {
@@ -116,6 +115,31 @@ padding-bottom: 0;
 
   .mobile-soc-list {
     column-gap: 56px;
+  }
+
+.modal {
+  width: 408px;
+}
+
+  .modal-form {
+    width: 360px;
+  }
+
+  .modal-input {
+    width: 100%;
+  }
+
+  .textarea {
+    width: 360px;
+  }
+
+  .checkbox-label {
+    min-width: 338px;
+    font-size: 11px;
+  }
+
+  .modal-title {
+    width: 360px;
   }
 }
 
@@ -270,12 +294,18 @@ width: calc((100% - 24px) / 2);
 .nav-list {
   display: block;
 }
+
+.img-tablet {
+  width: 248px;
+}
 }
 
 @media screen and (min-width: 1200px) {
 
   .container {
     width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
 .strategy-cont {
@@ -338,7 +368,12 @@ width: calc((100% - 24px) / 2);
   }
 
   .team-container {
-    width: 1128px;
+    width: 100%;
+  }
+
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .team-list {
@@ -349,10 +384,6 @@ width: calc((100% - 24px) / 2);
     width: 264px;
   }
 
-  .team-tittle {
-    padding-top: 120px;
-    padding-bottom: 72px;
-  }
 
   .customers-container {
     width: 1200px;
@@ -368,6 +399,7 @@ width: calc((100% - 24px) / 2);
   }
 
   .customers {
+    padding-bottom: 120px;
     padding-bottom: 120px;
   }
 
@@ -392,5 +424,9 @@ width: calc((100% - 24px) / 2);
 
   .nav-list {
     display: flex;
+  }
+
+  .img-tablet {
+    width: 264px;
   }
 }
