@@ -492,7 +492,7 @@ img {
 
 .team-list {
   justify-content: center;
-  gap: 32px;
+  gap: 72px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -528,7 +528,6 @@ img {
   display: flex;
   justify-content: center;
   margin-top: 8px;
-  margin-bottom: 32px;
   gap: 24px;
 }
 
